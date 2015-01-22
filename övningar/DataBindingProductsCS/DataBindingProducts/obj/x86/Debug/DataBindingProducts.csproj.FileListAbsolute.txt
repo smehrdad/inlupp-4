@@ -1,0 +1,17 @@
+D:\0Courses\.NET Courses\DA177a\Module4\DataBindingProducts\DataBindingProducts\bin\Debug\DataBindingProducts.exe
+D:\0Courses\.NET Courses\DA177a\Module4\DataBindingProducts\DataBindingProducts\bin\Debug\DataBindingProducts.pdb
+D:\0Courses\.NET Courses\DA177a\Module4\DataBindingProducts\DataBindingProducts\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\0Courses\.NET Courses\DA177a\Module4\DataBindingProducts\DataBindingProducts\obj\x86\Debug\DataBindingProducts.MainForm.resources
+D:\0Courses\.NET Courses\DA177a\Module4\DataBindingProducts\DataBindingProducts\obj\x86\Debug\DataBindingProducts.Properties.Resources.resources
+D:\0Courses\.NET Courses\DA177a\Module4\DataBindingProducts\DataBindingProducts\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\0Courses\.NET Courses\DA177a\Module4\DataBindingProducts\DataBindingProducts\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\0Courses\.NET Courses\DA177a\Module4\DataBindingProducts\DataBindingProducts\obj\x86\Debug\DataBindingProducts.exe
+D:\0Courses\.NET Courses\DA177a\Module4\DataBindingProducts\DataBindingProducts\obj\x86\Debug\DataBindingProducts.pdb
+C:\Users\MARALZA\Dropbox\C#\inlupp 4\övningar\DataBindingProductsCS\DataBindingProducts\obj\x86\Debug\DataBindingProducts.exe
+C:\Users\MARALZA\Dropbox\C#\inlupp 4\övningar\DataBindingProductsCS\DataBindingProducts\obj\x86\Debug\DataBindingProducts.pdb
+C:\Users\MARALZA\Dropbox\C#\inlupp 4\övningar\DataBindingProductsCS\DataBindingProducts\bin\Debug\DataBindingProducts.exe
+C:\Users\MARALZA\Dropbox\C#\inlupp 4\övningar\DataBindingProductsCS\DataBindingProducts\bin\Debug\DataBindingProducts.pdb
+C:\Users\MARALZA\Dropbox\C#\inlupp 4\övningar\DataBindingProductsCS\DataBindingProducts\obj\x86\Debug\DataBindingProducts.csprojResolveAssemblyReference.cache
+C:\Users\MARALZA\Dropbox\C#\inlupp 4\övningar\DataBindingProductsCS\DataBindingProducts\obj\x86\Debug\DataBindingProducts.MainForm.resources
+C:\Users\MARALZA\Dropbox\C#\inlupp 4\övningar\DataBindingProductsCS\DataBindingProducts\obj\x86\Debug\DataBindingProducts.Properties.Resources.resources
+C:\Users\MARALZA\Dropbox\C#\inlupp 4\övningar\DataBindingProductsCS\DataBindingProducts\obj\x86\Debug\DataBindingProducts.csproj.GenerateResource.Cache

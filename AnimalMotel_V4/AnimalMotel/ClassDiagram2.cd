@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AnimalMotel.Animal" Collapsed="true">
+    <Position X="3.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAwIAkAEAAIAQAAAgEAIAAAAAAAAAAAgg=</HashCode>
+      <FileName>Animal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AnimalMotel.Form1" Collapsed="true">
+    <Position X="8.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KEAAAgAAAGAYAAAEAKCASIACQgABUACQgIRAkCAgBBQ=</HashCode>
+      <FileName>Apu Animal Model.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalMotel.Fly" Collapsed="true">
+    <Position X="3.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAQgAAARAAIAAAAAAAAA=</HashCode>
+      <FileName>InsectSpecies\Fly.cs</FileName>
+      <NewMemberFileName>InsectSpecies\Bee.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalMotel.Bird" Collapsed="true">
+    <Position X="4.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bird.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalMotel.Butterfly" Collapsed="true">
+    <Position X="2" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAgEAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>InsectSpecies\ButterFly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalMotel.MammalFactory" Collapsed="true">
+    <Position X="10.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MammalFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalMotel.Insect" Collapsed="true">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAIAAAAAAAAAAAAAAgAAAQAAAAAAAAAAAg=</HashCode>
+      <FileName>Insects.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalMotel.Program" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalMotel.Properties.Resources" Collapsed="true">
+    <Position X="8.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalMotel.Properties.Settings" Collapsed="true">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalMotel.Mammal" Collapsed="true">
+    <Position X="6.5" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="AnimalMotel.Animal" FixedToPoint="true">
+      <Path>
+        <Point X="4.25" Y="2.062" />
+        <Point X="4.25" Y="2.375" />
+        <Point X="7.812" Y="2.375" />
+        <Point X="7.812" Y="2.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mammal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalMotel.Dove" Collapsed="true">
+    <Position X="2.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BirdSpecies\Dove.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalMotel.Eagle" Collapsed="true">
+    <Position X="4.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BirdSpecies\Eagle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalMotel.Pelican" Collapsed="true">
+    <Position X="6" Y="10.5" Width="1.5" />
+    <InheritanceLine Type="AnimalMotel.Bird" ManuallyRouted="true">
+      <Path>
+        <Point X="5.5" Y="3.441" />
+        <Point X="5.5" Y="10.396" />
+        <Point X="6.75" Y="10.396" />
+        <Point X="6.75" Y="10.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BirdSpecies\Pelican.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalMotel.InsectFactory" Collapsed="true">
+    <Position X="52" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>InsectFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalMotel.Bear" Collapsed="true">
+    <Position X="10.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MammalSpecies\Bear.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalMotel.Cat" Collapsed="true">
+    <Position X="8.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MammalSpecies\Cat.cs</FileName>
+      <NewMemberFileName>MammalSpecies\Bear.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalMotel.Deer" Collapsed="true">
+    <Position X="10.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MammalSpecies\Deer.cs</FileName>
+      <NewMemberFileName>MammalSpecies\Bear.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalMotel.Dog" Collapsed="true">
+    <Position X="12.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MammalSpecies\Dog.cs</FileName>
+      <NewMemberFileName>MammalSpecies\Bear.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalMotel.Horse" Collapsed="true">
+    <Position X="14.5" Y="8.5" Width="1.5" />
+    <InheritanceLine Type="AnimalMotel.Mammal" ManuallyRouted="true">
+      <Path>
+        <Point X="7.25" Y="3.441" />
+        <Point X="7.25" Y="8.238" />
+        <Point X="15.25" Y="8.238" />
+        <Point X="15.25" Y="8.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MammalSpecies\Horse.cs</FileName>
+      <NewMemberFileName>MammalSpecies\Bear.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalMotel.Lion" Collapsed="true">
+    <Position X="8.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MammalSpecies\Lion.cs</FileName>
+      <NewMemberFileName>MammalSpecies\Bear.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalMotel.Panda" Collapsed="true">
+    <Position X="12.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MammalSpecies\Panda.cs</FileName>
+      <NewMemberFileName>MammalSpecies\Bear.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalMotel.Wolf" Collapsed="true">
+    <Position X="6.5" Y="8.5" Width="1.5" />
+    <InheritanceLine Type="AnimalMotel.Mammal" ManuallyRouted="true">
+      <Path>
+        <Point X="7.25" Y="3.441" />
+        <Point X="7.25" Y="8.019" />
+        <Point X="7.25" Y="8.019" />
+        <Point X="7.25" Y="8.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MammalSpecies\Wolf.cs</FileName>
+      <NewMemberFileName>MammalSpecies\Bear.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalMotel.Marine" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="AnimalMotel.Animal" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.25" Y="2.062" />
+        <Point X="4.25" Y="2.375" />
+        <Point X="1.125" Y="2.375" />
+        <Point X="1.125" Y="2.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Marine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalMotel.Goldfish" Collapsed="true">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MarineSpecies\Goldfish.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalMotel.Whales" Collapsed="true">
+    <Position X="2.25" Y="6.25" Width="1.5" />
+    <InheritanceLine Type="AnimalMotel.Marine" ManuallyRouted="true">
+      <Path>
+        <Point X="1.25" Y="3.441" />
+        <Point X="1.25" Y="5.847" />
+        <Point X="3" Y="5.847" />
+        <Point X="3" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MarineSpecies\Whales.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalMotel.Reptile" Collapsed="true">
+    <Position X="47.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reptile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalMotel.Frog" Collapsed="true">
+    <Position X="47.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReptileSpecies\Frog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalMotel.Lizard" Collapsed="true">
+    <Position X="49.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReptileSpecies\Lizard.cs</FileName>
+      <NewMemberFileName>ReptileSpecies\lizard.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimalMotel.Snake" Collapsed="true">
+    <Position X="45" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReptileSpecies\Snake.cs</FileName>
+      <NewMemberFileName>ReptileSpecies\snake.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="AnimalMotel.IAnimal" Collapsed="true">
+    <Position X="8.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAgAAgAEAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAnimal.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="AnimalMotel.GenderType" Collapsed="true">
+    <Position X="10.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAIEAAA=</HashCode>
+      <FileName>Enumes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AnimalMotel.CategoryType" Collapsed="true">
+    <Position X="12" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAwAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Enumes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AnimalMotel.MammalSpecies" Collapsed="true">
+    <Position X="8.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAQAAAAAAAAAAAAMCAAAAAAAACIAAAgAAAA=</HashCode>
+      <FileName>Enumes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AnimalMotel.InsectSpecies" Collapsed="true">
+    <Position X="8.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Enumes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AnimalMotel.BirdSpecies" Collapsed="true">
+    <Position X="52" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAIAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enumes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AnimalMotel.MarineSpecies" Collapsed="true">
+    <Position X="53.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enumes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AnimalMotel.ReptileSpecies" Collapsed="true">
+    <Position X="52" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAQAAAgAA=</HashCode>
+      <FileName>Enumes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

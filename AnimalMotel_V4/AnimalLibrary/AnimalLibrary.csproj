@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CA7D1551-AC18-45E5-AA06-99D457E1E3EA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AnimalLibrary</RootNamespace>
+    <AssemblyName>AnimalLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Factory\Animal.cs" />
+    <Compile Include="Factory\Bird.cs" />
+    <Compile Include="Factory\BirdFactory.cs" />
+    <Compile Include="Domain\BirdSpecies\Dove.cs" />
+    <Compile Include="Domain\BirdSpecies\Eagle.cs" />
+    <Compile Include="Domain\BirdSpecies\Pelican.cs" />
+    <Compile Include="Factory\Enumes.cs" />
+    <Compile Include="File\FileUtility.cs" />
+    <Compile Include="File\FileTypes.cs" />
+    <Compile Include="Helpers\Helper.cs" />
+    <Compile Include="Helpers\ValidationException.cs" />
+    <Compile Include="Factory\IAnimal.cs" />
+    <Compile Include="Factory\InsectFactory.cs" />
+    <Compile Include="Factory\Insects.cs" />
+    <Compile Include="Domain\InsectSpecies\Bee.cs" />
+    <Compile Include="Domain\InsectSpecies\ButterFly.cs" />
+    <Compile Include="Domain\InsectSpecies\Fly.cs" />
+    <Compile Include="Factory\Mammal.cs" />
+    <Compile Include="Factory\MammalFactory.cs" />
+    <Compile Include="Domain\MammalSpecies\Bear.cs" />
+    <Compile Include="Domain\MammalSpecies\Cat.cs" />
+    <Compile Include="Domain\MammalSpecies\Deer.cs" />
+    <Compile Include="Domain\MammalSpecies\Dog.cs" />
+    <Compile Include="Domain\MammalSpecies\Horse.cs" />
+    <Compile Include="Domain\MammalSpecies\Lion.cs" />
+    <Compile Include="Domain\MammalSpecies\Panda.cs" />
+    <Compile Include="Domain\MammalSpecies\Wolf.cs" />
+    <Compile Include="Factory\Marine.cs" />
+    <Compile Include="Factory\MarineFactory.cs" />
+    <Compile Include="Domain\MarineSpecies\Goldfish.cs" />
+    <Compile Include="Domain\MarineSpecies\Whales.cs" />
+    <Compile Include="Domain\ProductFiles\ProductManager.cs" />
+    <Compile Include="Domain\ProductFiles\ProductManagerTextFiles.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Factory\Reptile.cs" />
+    <Compile Include="Factory\ReptileFactory.cs" />
+    <Compile Include="Domain\ReptileSpecies\Frog.cs" />
+    <Compile Include="Domain\ReptileSpecies\Lizard.cs" />
+    <Compile Include="Domain\ReptileSpecies\Snake.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

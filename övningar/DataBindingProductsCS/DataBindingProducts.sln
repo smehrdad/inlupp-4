@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBindingProducts", "DataBindingProducts\DataBindingProducts.csproj", "{BC390CB3-6A6D-4A96-AA02-BAA4F13BA783}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC390CB3-6A6D-4A96-AA02-BAA4F13BA783}.Debug|x86.ActiveCfg = Debug|x86
+		{BC390CB3-6A6D-4A96-AA02-BAA4F13BA783}.Debug|x86.Build.0 = Debug|x86
+		{BC390CB3-6A6D-4A96-AA02-BAA4F13BA783}.Release|x86.ActiveCfg = Release|x86
+		{BC390CB3-6A6D-4A96-AA02-BAA4F13BA783}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

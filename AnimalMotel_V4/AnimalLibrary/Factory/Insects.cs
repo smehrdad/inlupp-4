@@ -13,7 +13,7 @@ namespace AnimalMotel
         string getAnimalSpecificData;
 	   
         /// <summary>
-	    /// Default constructor
+	    /// Default constructor --------
 	    /// </summary>
 	    public Insect()
 	    {
